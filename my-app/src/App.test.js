@@ -6,5 +6,8 @@ test('renders learn react link', () => {
   const linkElement = screen.getByText(/learn react/i);
   //New test added in new-feature branch
   expect(linkElement).toBeInTheDocument();
+  expect(linkElement).toBeInTheDocument();
+  expect(linkElement).toBeInTheDocument();
+  expect(linkElement).toBeInTheDocument();
   // To do comment 
 });
