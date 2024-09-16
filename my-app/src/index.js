@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// this is new commit in main brnach which will make conflict for feature-1234
 root.render(
   <React.StrictMode>
     <App />
@@ -18,3 +19,5 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 // Now this is new comment in new-feature branch
 reportWebVitals();
+
+// TO do new line added on the same place which will make conflict
