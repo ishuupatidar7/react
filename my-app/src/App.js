@@ -20,6 +20,14 @@ function App() {
         >
           Learn React project 
         </a>
+        <a
+          className="App-link"
+          href="https://www.google.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Go to the Google 
+        </a>
       </header>
     </div>
   );
