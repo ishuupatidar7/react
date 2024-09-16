@@ -11,6 +11,7 @@ function App() {
         </p>
         <p>This is demo project</p>
         <p>new para added in feature branch</p>
+        <p>New para added for new-feature branch</p>
         <a
           className="App-link"
           href="https://reactjs.org"
