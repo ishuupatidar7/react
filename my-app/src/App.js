@@ -28,6 +28,14 @@ function App() {
         >
           Go to the Google 
         </a>
+        <a
+          className="App-link"
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Go to the Facebook 
+        </a>
       </header>
     </div>
   );
