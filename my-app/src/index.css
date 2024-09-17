@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+code-code {
+  font-family: source-code-pro, Menlo, 'Courier New',
+    monospace;
+}
