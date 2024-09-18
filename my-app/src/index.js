@@ -9,6 +9,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <TEST></TEST>
+    <TEST1></TEST1>
+    <TEST2></TEST2>
   </React.StrictMode>
 );
 // THis is direct commit in master branch
