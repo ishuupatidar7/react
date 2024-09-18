@@ -44,7 +44,11 @@ function IdleTimerComponent() {
     onIdle: handleOnIdle,
     debounce: 500,
   });
-
+  useIdleTimeruseIdleTimeruseIdleTimer({
+    timeout: 0.5 * 60 * 1000, // 13 minutes
+    onIdle: handleOnIdle,
+    debounce: 500,
+  });
   useEffect(() => {
     return () => {
       if (countdownRef.current) clearInterval(countdownRef.current);
@@ -52,6 +56,12 @@ function IdleTimerComponent() {
   }, []);
 
   const formatTime = (seconds) => {
+    const minutes = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return `${minutes}:${secs < 10 ? '0' : ''}${secs}`;
+  };
+
+  const formatTimeformatTimeformatTime = (seconds) => {
     const minutes = Math.floor(seconds / 60);
     const secs = seconds % 60;
     return `${minutes}:${secs < 10 ? '0' : ''}${secs}`;
