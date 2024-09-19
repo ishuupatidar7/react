@@ -44,7 +44,7 @@ function IdleTimerComponent() {
     onIdle: handleOnIdle,
     debounce: 500,
   });
-  useIdleTimeruseIdleTimeruseIdleTimer({
+  usertimer({
     timeout: 0.5 * 60 * 1000, // 13 minutes
     onIdle: handleOnIdle,
     debounce: 500,
