@@ -12,6 +12,8 @@ root.render(
     <TEST></TEST>
     <TEST1></TEST1>
     <TEST2></TEST2>
+    <TEST4></TEST4>
+    <TEST5></TEST5>
   </React.StrictMode>
 );
 // THis is direct commit in master branch
