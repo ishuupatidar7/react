@@ -12,6 +12,11 @@ const formatTime = (seconds) => {
     const secs = seconds % 60;
     return `${minutes}:${secs < 10 ? '0' : ''}${secs}`;
   };
+  useEffect(()=>{
+    if(category.includes(getProductInformation()?.getCategory??'')){
+      dispatch(action.setErro(true))
+    }
+  })
   const handleOnIdle = () => {
     setIsIdle(true);
     startCountdown();
