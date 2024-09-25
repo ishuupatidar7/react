@@ -7,6 +7,11 @@ function IdleTimerComponent() {
   const [timeLeft, setTimeLeft] = useState(120); // 120 seconds = 2 minutes
   const countdownRef = useRef(null);
 
+const formatTime = (seconds) => {
+    const minutes = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return `${minutes}:${secs < 10 ? '0' : ''}${secs}`;
+  };
   const handleOnIdle = () => {
     setIsIdle(true);
     startCountdown();
